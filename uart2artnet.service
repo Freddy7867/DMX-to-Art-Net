@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 User=pi
-WorkingDirectory=/home/pi/uart2artnet
-ExecStart=/usr/bin/python3 /home/pi/uart2artnet/uart2artnet.py
+WorkingDirectory=/home/pi/DMX-to-Art-Net
+ExecStart=/usr/bin/python3 /home/pi/DMX-to-Art-Net/uart2artnet.py
 Restart=always
 
 [Install]
