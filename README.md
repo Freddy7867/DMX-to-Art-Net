@@ -9,7 +9,7 @@ Raspberry Pi 3B+
 MAX485-Modul (z. B. via AliExpress)
 XLR-Einbaubuchse (z. B. via AliExpress)
 Lüfter zur Kühlung des Raspberry Pi
-3D Druck Case 
+und ein 3D Druck Case 
 
 # Verwendete Software
 Raspberry Pi OS Lite
