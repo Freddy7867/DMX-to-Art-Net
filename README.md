@@ -39,4 +39,12 @@ sudo systemctl start uart2artnet.service
 Stelle mit mc sicher, dass die Datei config.json für alle Benutzer les- und schreibbar ist.
 (Du kannst z. B. im Midnight Commander F9 → Datei → Rechte ändern auswählen.)
 
+# Test.py
+Mit diesem Skript findet man heraus, was das Start- und Stopp-Bit ist, welches man dann in der Hauptsoftware unter „Startmuster“ einträgt.
+
+Die Aufteilung der 512 Bits dient zur besseren Orientierung.
+
+Anschließend muss man ein sich wiederholendes Muster selbst herausfinden – zum Beispiel: alle Fader hochziehen, dann das test.py-Skript einmal ausführen, mit Strg + C stoppen und anschließend nach dem Muster suchen.
+(Normalerweise ist es das Muster, das bereits in der Software eingetragen ist.)
+
 
